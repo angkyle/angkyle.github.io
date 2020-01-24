@@ -1,6 +1,20 @@
 h1{
   color:#1886b5;
-  
 
 
+
+}
+.blueText{
+
+  color:blue;
+
+
+}
+
+.greenText{
+  color:green;
+}
+
+body{
+  background: #d9ced4;
 }
