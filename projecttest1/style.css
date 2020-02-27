@@ -297,78 +297,121 @@ h6 {
 
 .project {
       height: 500px;
+      cursor: pointer;
+
 }
 
 .project1 {
-      background: url(https://images.unsplash.com/photo-1540349220179-09d3866f2e74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2600&q=80) no-repeat 50% 50%;
+      /* background: url(images/dis3/poster3.png) no-repeat 50% 50%; */
       background-size: cover;
 }
 
+.project:hover img{
+opacity: 0.5;
+}
+
+.project img {
+  width: 70%;
+  height: 70%;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
 .project1::after {
-      content: "timeless flow.";
+      content: "spirits of the soil.";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
       color: #fff;
       display: block;
-      top: 8%;
-      left: -60%;
+      top: -75%;
+      left: -90%;
       right: 0;
       bottom: 0;
 }
 
 .project2 {
-      background: url(https://images.unsplash.com/photo-1468870045442-e7d799d8c98a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2448&q=80) no-repeat 50% 50%;
+      /* background: url(images/dis2/normannfinal.jpg) no-repeat 50% 50%; */
       background-size: cover;
+      width: 180px;
+      height: 666px;
+      padding-left: 120px;
+      width: 50%;
+      height: 50%;
+      margin-top: -50px;
+      /* position: absolute; */
+
 }
 
 .project2::after {
-      content: "foretime.";
+      content: "normann x tivoli.";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
       color: #fff;
       display: block;
-      top: 80%;
-      left: 90%;
+      top: -300px;
+      left: 80%;
       right: 0;
       bottom: 0;
 }
 
 .project3 {
-      background: url(https://images.unsplash.com/photo-1482501157762-56897a411e05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80) no-repeat 50% 50%;
+      /* background: url(images/dis4/poster4final.png) no-repeat 50% 50%; */
       background-size: cover;
+      width: 600px;
+      height: 849px;
+      margin-top: -50px;
+      margin-right: -230px;
+
+
+
+
 }
 
 .project3::after {
-      content: "never again.";
+      content: "stedelijk museum.";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
       color: #fff;
       display: block;
-      top: 80%;
-      left: -50%;
+      top: -50%;
+      left: -80%;
       right: 0;
       bottom: 0;
 }
 
 .project4 {
-      background: url(https://images.unsplash.com/photo-1435685813800-51ba4ceb9c4a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1785&q=80) no-repeat 50% 50%;
+      /* background: url(images/dis1/eggchairtext.jpg) no-repeat 50% 50%; */
       background-size: cover;
+      width: 500px;
+      height: 800px;
+      margin-top: -250px;
 }
 
 .project4::after {
-      content: "departure.";
+      content: "egg chair x arne jacobsen";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
       color: #fff;
       display: block;
-      top: 10%;
-      left: 90%;
+      top: -50%;
+      left: 85%;
       right: 0;
       bottom: 0;
+
+}
+
+.project4 p{
+      font-size: 36px;
+
+      position: absolute;
+      bottom: 100px;
+      left: 200px;
 }
 
 @media(max-width: 768px) {
@@ -508,7 +551,11 @@ h6 {
 }
 
 .image {
-      background: url(https://images.unsplash.com/photo-1540885762261-a2ca01f290f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80) no-repeat 50% 70%;
+      /* background: url(images/treedance.png) no-repeat */
+      background-image: url(images/treedance.png);no-repeat
+      width: 800px;;
+      height: 640px;
+    background-size: contain;
 }
 
 /*--------------- contact form --------------- */
@@ -596,4 +643,90 @@ textarea:focus {
 
 .next p {
       text-align: right;
+}
+
+.imgs{
+  margin-top: 50px;
+}
+
+.image1 {
+
+      background: url(images/dis3/artist.jpg) no-repeat 70% 70%;
+
+}
+.image2 {
+      background: url(images/dis3/sonsofthesoil.jpg) no-repeat 50% 60%;
+}
+.image3 {
+      /* background: url(images/dis3/poster3a.jpg) no-repeat 0% 70%; */
+      width: 150%;
+      height: 150%;
+}
+.image4 {
+  width: 105%;
+  height: 105%;
+      /* background: url(https://images.unsplash.com/photo-1540885762261-a2ca01f290f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80) no-repeat 50% 70%; */
+}
+
+.image12{
+  width: 140%;
+  height: 140%;
+}
+
+.image22{
+  width: 150%;
+  height: 150%;
+}
+
+.prev{
+  margin-top: 10%;
+}
+
+.next{
+  margin-top: 10%;
+
+}
+
+.image32{
+  width: 150%;
+  height: 150%;
+}
+
+.iamge42{
+  width: 125%;
+  height: 125%;
+}
+
+.image13 {
+  width: 170%;
+  height: 170%;
+}
+
+.image23{
+ margin-left: 20%;
+ width: 120%;
+ height: 120%;
+}
+.image233{
+
+}
+.image33 {
+  width: 150%;
+  height: 150%;
+
+}
+
+.image43 {
+  width: 105%;
+  height: 105%;
+}
+
+.image14 {
+  width: 130%;
+  height: 130%;
+}
+
+.image24 {
+  width: 130%;
+  height: 130%;
 }

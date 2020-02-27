@@ -90,6 +90,12 @@ body{
     color: transparent;
 }
 
+.subtitle {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
 .img-text-wrapper:hover .subtitle{
     font-weight: 600;
     color: lightseagreen;
